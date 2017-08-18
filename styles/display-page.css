@@ -1,7 +1,22 @@
+/* answer is here https://github.com/Thinkful-Ed/css_layout_exercises/blob/solutions/styles/display-page.css */
+
 body {
 	margin: auto;
 }
 
-p{
-	text-align: center;
+.whole {
+ 	width: 800px; 
+ 	border: 1px black solid;
+}
+
+.row1 {
+	 width: 50%; 
+	 height: 200px;
+	 display: inline-block;
+}
+
+.row2 {
+	 width: 33.3%; 
+	 height: 300px;
+	 display: inline-block;
 }
